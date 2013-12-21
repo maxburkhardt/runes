@@ -1,0 +1,30 @@
+{
+  "uuid": "ae9f5f3e-ae59-40df-8707-e9ec9a3f139c",
+  "shortName": "runes",
+  "longName": "runes",
+  "companyName": "Burkhardt Industries",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+	   {
+	    "type":"font",
+	    "name":"RUNES_30",
+	    "file":"fonts/RUNE.TTF"
+	   },
+
+           {
+            "menuIcon": true,
+            "type":"png",
+            "name":"IMAGE_MENU_ICON",
+            "file":"images/icon.png"
+           }
+        ]
+  }
+}

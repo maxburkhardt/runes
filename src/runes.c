@@ -101,8 +101,8 @@ void handle_minute_tick(struct tm *tick_time, TimeUnits units_changed) {
                 text_layer_set_text(text_minute_layer, "");
                 break;
             case 13:
-                text_layer_set_text(text_hex_layer, "xirteen");
-                text_layer_set_text(text_minute_layer, "");
+                text_layer_set_text(text_hex_layer, "xir");
+                text_layer_set_text(text_minute_layer, "teen");
                 break;
             case 14:
                 text_layer_set_text(text_hex_layer, "four");
@@ -136,7 +136,7 @@ void handle_minute_tick(struct tm *tick_time, TimeUnits units_changed) {
         switch (hex)
         {
             case 2:
-                text_layer_set_text(text_hex_layer, "twenty");
+                text_layer_set_text(text_hex_layer, "twnty");
                 break;
             case 3:
                 text_layer_set_text(text_hex_layer, "xirty");

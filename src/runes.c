@@ -12,40 +12,40 @@ void handle_minute_tick(struct tm *tick_time, TimeUnits units_changed) {
     switch (hour_value)
     {
         case 0:
-            text_layer_set_text(text_hour_layer, "twelve");
+            text_layer_set_text(text_hour_layer, "tolf");
             break;
         case 1:
-            text_layer_set_text(text_hour_layer, "one");
+            text_layer_set_text(text_hour_layer, "ein");
             break;
         case 2:
-            text_layer_set_text(text_hour_layer, "two");
+            text_layer_set_text(text_hour_layer, "tveir");
             break;
         case 3:
-            text_layer_set_text(text_hour_layer, "xree");
+            text_layer_set_text(text_hour_layer, "xrir");
             break;
         case 4:
-            text_layer_set_text(text_hour_layer, "four");
+            text_layer_set_text(text_hour_layer, "fjorir");
             break;
         case 5:
-            text_layer_set_text(text_hour_layer, "five");
+            text_layer_set_text(text_hour_layer, "fimm");
             break;
         case 6:
-            text_layer_set_text(text_hour_layer, "siks");
+            text_layer_set_text(text_hour_layer, "seks");
             break;
         case 7:
-            text_layer_set_text(text_hour_layer, "seven");
+            text_layer_set_text(text_hour_layer, "sjau");
             break;
         case 8:
-            text_layer_set_text(text_hour_layer, "eight");
+            text_layer_set_text(text_hour_layer, "atta");
             break;
         case 9:
-            text_layer_set_text(text_hour_layer, "nine");
+            text_layer_set_text(text_hour_layer, "niu");
             break;
         case 10:
-            text_layer_set_text(text_hour_layer, "ten");
+            text_layer_set_text(text_hour_layer, "tiu");
             break;
         case 11:
-            text_layer_set_text(text_hour_layer, "eleven");
+            text_layer_set_text(text_hour_layer, "ellifu");
             break;
     }
 
@@ -58,34 +58,34 @@ void handle_minute_tick(struct tm *tick_time, TimeUnits units_changed) {
                 text_layer_set_text(text_hex_layer, "");
                 break;
             case 1:
-                text_layer_set_text(text_hex_layer, "one");
+                text_layer_set_text(text_hex_layer, "ein");
                 break;
             case 2:
-                text_layer_set_text(text_hex_layer, "two");
+                text_layer_set_text(text_hex_layer, "tveir");
                 break;
             case 3:
-                text_layer_set_text(text_hex_layer, "xree");
+                text_layer_set_text(text_hex_layer, "xrir");
                 break;
             case 4:
-                text_layer_set_text(text_hex_layer, "four");
+                text_layer_set_text(text_hex_layer, "fjorir");
                 break;
             case 5:
-                text_layer_set_text(text_hex_layer, "five");
+                text_layer_set_text(text_hex_layer, "fimm");
                 break;
             case 6:
-                text_layer_set_text(text_hex_layer, "siks");
+                text_layer_set_text(text_hex_layer, "seks");
                 break;
             case 7:
-                text_layer_set_text(text_hex_layer, "seven");
+                text_layer_set_text(text_hex_layer, "sjau");
                 break;
             case 8:
-                text_layer_set_text(text_hex_layer, "eight");
+                text_layer_set_text(text_hex_layer, "atta");
                 break;
             case 9:
-                text_layer_set_text(text_hex_layer, "nine");
+                text_layer_set_text(text_hex_layer, "niu");
                 break;
             case 10:
-                text_layer_set_text(text_hex_layer, "ten");
+                text_layer_set_text(text_hex_layer, "tiu");
                 break;
         }
         text_layer_set_text(text_minute_layer, "");
@@ -93,40 +93,40 @@ void handle_minute_tick(struct tm *tick_time, TimeUnits units_changed) {
         //handle teens
         switch (minute_value) {
             case 11:
-                text_layer_set_text(text_hex_layer, "eleven");
+                text_layer_set_text(text_hex_layer, "ellifu");
                 text_layer_set_text(text_minute_layer, "");
                 break;
             case 12:
-                text_layer_set_text(text_hex_layer, "twelve");
+                text_layer_set_text(text_hex_layer, "tolf");
                 text_layer_set_text(text_minute_layer, "");
                 break;
             case 13:
-                text_layer_set_text(text_hex_layer, "xir");
-                text_layer_set_text(text_minute_layer, "teen");
+                text_layer_set_text(text_hex_layer, "xret");
+                text_layer_set_text(text_minute_layer, "tan");
                 break;
             case 14:
-                text_layer_set_text(text_hex_layer, "four");
-                text_layer_set_text(text_minute_layer, "teen");
+                text_layer_set_text(text_hex_layer, "fjor");
+                text_layer_set_text(text_minute_layer, "tan");
                 break;
             case 15:
-                text_layer_set_text(text_hex_layer, "fif");
-                text_layer_set_text(text_minute_layer, "teen");
+                text_layer_set_text(text_hex_layer, "fim");
+                text_layer_set_text(text_minute_layer, "tan");
                 break;
             case 16:
-                text_layer_set_text(text_hex_layer, "siks");
-                text_layer_set_text(text_minute_layer, "teen");
+                text_layer_set_text(text_hex_layer, "seks");
+                text_layer_set_text(text_minute_layer, "tan");
                 break;
             case 17:
-                text_layer_set_text(text_hex_layer, "seven");
-                text_layer_set_text(text_minute_layer, "teen");
+                text_layer_set_text(text_hex_layer, "sjau");
+                text_layer_set_text(text_minute_layer, "tan");
                 break;
             case 18:
-                text_layer_set_text(text_hex_layer, "eight");
-                text_layer_set_text(text_minute_layer, "teen");
+                text_layer_set_text(text_hex_layer, "at");
+                text_layer_set_text(text_minute_layer, "jan");
                 break;
             case 19:
-                text_layer_set_text(text_hex_layer, "nine");
-                text_layer_set_text(text_minute_layer, "teen");
+                text_layer_set_text(text_hex_layer, "nit");
+                text_layer_set_text(text_minute_layer, "jan");
                 break;
         }
     } else {
@@ -136,16 +136,16 @@ void handle_minute_tick(struct tm *tick_time, TimeUnits units_changed) {
         switch (hex)
         {
             case 2:
-                text_layer_set_text(text_hex_layer, "twnty");
+                text_layer_set_text(text_hex_layer, "tut");
                 break;
             case 3:
-                text_layer_set_text(text_hex_layer, "xirty");
+                text_layer_set_text(text_hex_layer, "xrir");
                 break;
             case 4:
-                text_layer_set_text(text_hex_layer, "forty");
+                text_layer_set_text(text_hex_layer, "fjorir");
                 break;
             case 5:
-                text_layer_set_text(text_hex_layer, "fifty");
+                text_layer_set_text(text_hex_layer, "fimm");
                 break;
         }
         int minute_ls = minute_value % 10;
@@ -154,31 +154,31 @@ void handle_minute_tick(struct tm *tick_time, TimeUnits units_changed) {
                 text_layer_set_text(text_minute_layer, "");
                 break;
             case 1:
-                text_layer_set_text(text_minute_layer, "one");
+                text_layer_set_text(text_minute_layer, "ein");
                 break;
             case 2:
-                text_layer_set_text(text_minute_layer, "two");
+                text_layer_set_text(text_minute_layer, "tveir");
                 break;
             case 3:
-                text_layer_set_text(text_minute_layer, "xree");
+                text_layer_set_text(text_minute_layer, "xrir");
                 break;
             case 4:
-                text_layer_set_text(text_minute_layer, "four");
+                text_layer_set_text(text_minute_layer, "fjorir");
                 break;
             case 5:
-                text_layer_set_text(text_minute_layer, "five");
+                text_layer_set_text(text_minute_layer, "fimm");
                 break;
             case 6:
-                text_layer_set_text(text_minute_layer, "siks");
+                text_layer_set_text(text_minute_layer, "seks");
                 break;
             case 7:
-                text_layer_set_text(text_minute_layer, "seven");
+                text_layer_set_text(text_minute_layer, "sjau");
                 break;
             case 8:
-                text_layer_set_text(text_minute_layer, "eight");
+                text_layer_set_text(text_minute_layer, "atta");
                 break;
             case 9:
-                text_layer_set_text(text_minute_layer, "nine");
+                text_layer_set_text(text_minute_layer, "niu");
                 break;
         }
     }

@@ -126,7 +126,7 @@ void handle_minute_tick(struct tm *tick_time, TimeUnits units_changed) {
                 break;
             case 19:
                 text_layer_set_text(text_hex_layer, "nit");
-                text_layer_set_text(text_minute_layer, "jan");
+                text_layer_set_text(text_minute_layer, "tan");
                 break;
         }
     } else {
@@ -151,7 +151,7 @@ void handle_minute_tick(struct tm *tick_time, TimeUnits units_changed) {
         int minute_ls = minute_value % 10;
         switch (minute_ls) {
             case 0:
-                text_layer_set_text(text_minute_layer, "");
+                text_layer_set_text(text_minute_layer, "tigir");
                 break;
             case 1:
                 text_layer_set_text(text_minute_layer, "ein");
